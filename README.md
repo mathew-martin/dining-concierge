@@ -13,7 +13,7 @@ Lex Bot → Lambda (validation) → SQS Queue →
 Lambda Consumer → DynamoDB + OpenSearch → SES Email → User
 ```
 
-Additional components:
+Components:
 
 - **Static HTML/JS frontend** 
 - **API Gateway** - to expose the chatbot backend
@@ -24,6 +24,8 @@ Additional components:
 - **Amazon OpenSearch** - indexed search for restaurant filtering by cuisine
 - **Amazon SES** - sends personalized restaurant suggestions via email
 
+   <!-- ![Architecture Diagram](images/architecture.png) -->
+   <img src="images/architecture.png" alt="Architecture Diagram" width="500">
 
 ---
 
