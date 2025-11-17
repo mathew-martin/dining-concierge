@@ -8,7 +8,7 @@ import boto3
 REGION = "us-east-1"
 TABLE_NAME = "yelp-restaurants"
 
-YELP_API_KEY = "6XXL7jo1_MA_G_3Iqp2Y4vLCV9qLgyzuCD2jUbtp7fxbt9QV7TFYkrBYh6xU0_EcCBcQuVAozJAfA-rU8ddBfcrw1oKTfcyiesZm1GO23LrrVFR0NG4J1WHm2APoaHYx"
+YELP_API_KEY = "YELP_API_KEY"
 HEADERS = {"Authorization": f"Bearer {YELP_API_KEY}"}
 
 LOCATION = "Manhattan"
